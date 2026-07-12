@@ -1,1 +1,1 @@
-/cab_booking/cab_vulnerable/uploads/upi_qr.webp
+/SecureRide/cab_vulnerable/uploads/upi_qr.webp

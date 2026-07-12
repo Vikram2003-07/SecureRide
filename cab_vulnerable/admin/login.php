@@ -79,13 +79,13 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                         
                         <div class="alert alert-info mt-3">
                             <strong>Default Credentials:</strong><br>
-                            Username: admin<br>
-                            Password: admin123
+                            Username: fadmin<br>
+                            Password: fadmin123
                         </div>
                         
                         <div class="alert alert-warning mt-3">
                             <i class="fas fa-bug"></i> <strong>Try SQL Injection:</strong><br>
-                            Username: <code>admin' OR '1'='1' --</code>
+                            Username: <code>admin' OR '1'='1' --</code> OR <code> ' OR 1=1 #</code>
                         </div>
                         
                         <div class="text-center mt-3">

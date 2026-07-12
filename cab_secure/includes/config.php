@@ -18,7 +18,7 @@ define('DB_PASS', '');
 define('DB_NAME', 'cab_booking'); // SAME DATABASE as vulnerable version
 
 // Base URL
-define('BASE_URL', '/cab_booking/cab_secure_v2/');
+define('BASE_URL', '/SecureRide/cab_secure/');
 
 // ✅ SECURITY: PDO Connection with Exception Handling
 try {

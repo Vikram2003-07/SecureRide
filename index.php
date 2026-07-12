@@ -142,7 +142,7 @@
             padding: 4px 14px;
             border-radius: 50px;
             font-size: 0.75rem;
-            font-weight: 700;
+            font-weight: 500;
             letter-spacing: 1.5px;
             text-transform: uppercase;
             margin-bottom: 15px;
@@ -321,7 +321,7 @@
                 <li><span class="icon">✅</span> Strict file upload validation</li>
                 <li><span class="icon">✅</span> Proper session management</li>
             </ul>
-            <a href="cab_secure_v2/index.php" class="btn btn-secure">Enter Secure Version →</a>
+            <a href="cab_secure/index.php" class="btn btn-secure">Enter Secure Version →</a>
         </div>
 
     </div>

@@ -1,1 +1,1 @@
-/cab_booking/cab_secure_v2/uploads/upi_qr.jpg
+/SecureRide/cab_secure/uploads/upi_qr.jpg

@@ -24,7 +24,7 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 // Base URL
-define('BASE_URL', '/cab_booking/cab_vulnerable/');
+define('BASE_URL', '/SecureRide/cab_vulnerable/');
 
 // ⚠️ VULNERABILITY: No CSRF token generation
 // Forms vulnerable to Cross-Site Request Forgery
