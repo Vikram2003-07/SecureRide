@@ -1,0 +1,10 @@
+# ✅ SECURITY: Block all script execution inside uploads directory
+# Prevents uploaded file from being executed as PHP/CGI even if validation is bypassed
+
+Options -ExecCGI
+AddHandler cgi-script .php .php3 .php4 .php5 .phtml .pl .py .jsp .asp .sh .cgi
+
+<FilesMatch "\.(php|php3|php4|php5|phtml|pl|py|jsp|asp|sh|cgi|html|htm|js|svg)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
